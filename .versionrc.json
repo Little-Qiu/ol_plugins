@@ -23,8 +23,7 @@
     },
     {
       "type": "refactor",
-      "section": "♻️ Code Refactoring | 代码重构",
-      "hidden": true
+      "section": "♻️ Code Refactoring | 代码重构"
     },
     {
       "type": "perf",
@@ -47,8 +46,7 @@
     },
     {
       "type": "chore",
-      "section": "🚀 Chore | 构建/工程依赖/工具",
-      "hidden": true
+      "section": "🚀 Chore | 构建/工程依赖/工具"
     },
     {
       "type": "ci",
