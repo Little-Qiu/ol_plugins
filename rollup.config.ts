@@ -1,7 +1,7 @@
 /*
  * @Author: LittleQ
  * @Date: 2022-08-15 23:21:09
- * @LastEditTime: 2022-08-24 22:07:31
+ * @LastEditTime: 2022-08-24 22:59:02
  * @LastEditors: LittleQ
  * @Description:
  * @FilePath: \ol_plugins\rollup.config.ts
@@ -31,6 +31,10 @@ export default [
       },
       { file: pkg.module, format: "es", sourcemap: true },
     ],
+    external: ["ol"],
+    globals: {
+      ol: "ol",
+    },
     plugins: [
       typescript({ compilerOptions: { lib: ["esnext"] } }),
       isCompressLibrary,
